@@ -1,0 +1,60 @@
+<mat-sidenav-container class="sidenav-container">
+
+    <mat-toolbar class=hidden-scrollbar color="primary">
+
+      <button mat-icon-button [matMenuTriggerFor]="menu" style="float:left; margin-bottom:4px; margin-right: 10px;">
+        <mat-icon >language</mat-icon>
+      </button>
+      
+      <mat-menu #menu="matMenu">
+        <!--<button mat-menu-item><mat-icon>home</mat-icon><span>Home</span></button> -->
+        <button mat-menu-item id='english' (click)="sendMessage($event)">English</button>
+        <button mat-menu-item id='magyar' (click)="sendMessage($event)">Magyar</button>
+      </mat-menu>
+      <span>Patai Balázs's webpage</span>
+      <nav>
+          <!-- ha rányomsz az a linke a /initial fog bejönni-->
+          <a routerLink="/initial">
+            
+            <button mat-raised-button class="buttonFormat"> Personal Information</button>
+          </a>
+      </nav>
+      <nav>
+          <a routerLink="/secondary">
+            <button mat-raised-button class="buttonFormat"> Hobbies</button>
+          </a>
+      </nav>
+      <nav>
+          <a routerLink="/third">
+            <button mat-raised-button class="buttonFormat"> Work experience</button>
+          </a>
+      </nav>
+
+      <a button href="https://www.instagram.com/pataibali/" target="_blank">
+        <mat-icon svgIcon="instagram" class="ig-mat-icon"></mat-icon>
+      </a>
+
+      <a button href="https://www.facebook.com/balazs.patai.3/" target="_blank">
+        <mat-icon svgIcon="facebook" class="fb-mat-icon"></mat-icon>
+      </a>
+    </mat-toolbar>
+    
+</mat-sidenav-container>
+
+
+
+<!-- 
+
+  ngx translate
+  prettier formázás
+  flexbox
+  nincs inline CSS
+  gomboknál margin tilos 
+  prod mode, (ng build --prod)
+  angular material card-ot -> style-ba belenyúlás
+  ngbootstrap cardja  
+  bootstrap szöveg komponensek
+  class elavation
+
+
+-->

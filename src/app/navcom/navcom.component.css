@@ -1,0 +1,53 @@
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.mat-raised-button{
+  margin: 6px 8px 6px 8px;
+}
+
+.mat-icon{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.fb-mat-icon{
+  height: 45px;
+  width: 45px;
+}
+
+.ig-mat-icon{
+  margin-left:450px;
+
+}
+
+.buttonFormat{
+  background-color: #3379D4; 
+  color:white;
+}
+
+
+.hidden-scrollbar {
+
+  overflow: hidden;
+
+  }
+
+
+
+

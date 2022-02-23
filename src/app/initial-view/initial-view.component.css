@@ -1,0 +1,25 @@
+.profkep{
+    width:300px;
+    height:300px;
+    margin-top: 15px;
+    margin-right:20px;
+    float: right;
+}
+.initial_szovegresz
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right:350px;
+    line-height: 1.2;
+    text-align: justify;
+}
+.cim{
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 2;
+    
+}
+.mark { 
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }

@@ -1,0 +1,17 @@
+.initial_szovegresz
+{
+    margin-left: 10px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-right: 200px;
+}
+.cim{
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.award_gif{
+    height:100px;
+    width:100px;
+}
